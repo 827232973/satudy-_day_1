@@ -11,7 +11,7 @@ browser = webdriver.Chrome()
 def main():
     username = "1"
     password = "2"
-    url = "https://login.huawei.com/login/?redirect=http%3A%2F%2Fcbuilder.huawei.com%3A9080%2Funistar%2Fdpm%2FpublishData%21showPublishData.action&lang=en&msg=1&v=V3.44"
+    url = "http://www.hao123.com/"
     browser.get(url)
     #窗口最大化
     browser.maximize_window()
